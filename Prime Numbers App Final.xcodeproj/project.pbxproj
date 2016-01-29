@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A935CA1C5BBD1700FEA129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A935C91C5BBD1700FEA129 /* AppDelegate.swift */; };
+		55A935CC1C5BBD1700FEA129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A935CB1C5BBD1700FEA129 /* ViewController.swift */; };
+		55A935CF1C5BBD1700FEA129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A935CD1C5BBD1700FEA129 /* Main.storyboard */; };
+		55A935D11C5BBD1700FEA129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A935D01C5BBD1700FEA129 /* Assets.xcassets */; };
+		55A935D41C5BBD1700FEA129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A935D21C5BBD1700FEA129 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55A935C61C5BBD1600FEA129 /* Prime Numbers App Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime Numbers App Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A935C91C5BBD1700FEA129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55A935CB1C5BBD1700FEA129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55A935CE1C5BBD1700FEA129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A935D01C5BBD1700FEA129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A935D31C5BBD1700FEA129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A935D51C5BBD1700FEA129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A935C31C5BBD1600FEA129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A935BD1C5BBD1600FEA129 = {
+			isa = PBXGroup;
+			children = (
+				55A935C81C5BBD1600FEA129 /* Prime Numbers App Final */,
+				55A935C71C5BBD1600FEA129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A935C71C5BBD1600FEA129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A935C61C5BBD1600FEA129 /* Prime Numbers App Final.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A935C81C5BBD1600FEA129 /* Prime Numbers App Final */ = {
+			isa = PBXGroup;
+			children = (
+				55A935C91C5BBD1700FEA129 /* AppDelegate.swift */,
+				55A935CB1C5BBD1700FEA129 /* ViewController.swift */,
+				55A935CD1C5BBD1700FEA129 /* Main.storyboard */,
+				55A935D01C5BBD1700FEA129 /* Assets.xcassets */,
+				55A935D21C5BBD1700FEA129 /* LaunchScreen.storyboard */,
+				55A935D51C5BBD1700FEA129 /* Info.plist */,
+			);
+			path = "Prime Numbers App Final";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A935C51C5BBD1600FEA129 /* Prime Numbers App Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A935D81C5BBD1700FEA129 /* Build configuration list for PBXNativeTarget "Prime Numbers App Final" */;
+			buildPhases = (
+				55A935C21C5BBD1600FEA129 /* Sources */,
+				55A935C31C5BBD1600FEA129 /* Frameworks */,
+				55A935C41C5BBD1600FEA129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Numbers App Final";
+			productName = "Prime Numbers App Final";
+			productReference = 55A935C61C5BBD1600FEA129 /* Prime Numbers App Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A935BE1C5BBD1600FEA129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lawrence Chen";
+				TargetAttributes = {
+					55A935C51C5BBD1600FEA129 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 55A935C11C5BBD1600FEA129 /* Build configuration list for PBXProject "Prime Numbers App Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A935BD1C5BBD1600FEA129;
+			productRefGroup = 55A935C71C5BBD1600FEA129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A935C51C5BBD1600FEA129 /* Prime Numbers App Final */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A935C41C5BBD1600FEA129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A935D41C5BBD1700FEA129 /* LaunchScreen.storyboard in Resources */,
+				55A935D11C5BBD1700FEA129 /* Assets.xcassets in Resources */,
+				55A935CF1C5BBD1700FEA129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A935C21C5BBD1600FEA129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A935CC1C5BBD1700FEA129 /* ViewController.swift in Sources */,
+				55A935CA1C5BBD1700FEA129 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55A935CD1C5BBD1700FEA129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A935CE1C5BBD1700FEA129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A935D21C5BBD1700FEA129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A935D31C5BBD1700FEA129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A935D61C5BBD1700FEA129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55A935D71C5BBD1700FEA129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A935D91C5BBD1700FEA129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prime Numbers App Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchentheiv.Prime-Numbers-App-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55A935DA1C5BBD1700FEA129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prime Numbers App Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchentheiv.Prime-Numbers-App-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A935C11C5BBD1600FEA129 /* Build configuration list for PBXProject "Prime Numbers App Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A935D61C5BBD1700FEA129 /* Debug */,
+				55A935D71C5BBD1700FEA129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A935D81C5BBD1700FEA129 /* Build configuration list for PBXNativeTarget "Prime Numbers App Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A935D91C5BBD1700FEA129 /* Debug */,
+				55A935DA1C5BBD1700FEA129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A935BE1C5BBD1600FEA129 /* Project object */;
+}
